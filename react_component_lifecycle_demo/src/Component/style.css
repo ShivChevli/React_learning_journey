@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    cursor: pointer;
+    font-weight: 700;
+    margin: 20px 40px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: 0;
+    border: 0;
+}
+
+.primary{
+    background-color: #0fa0ff;
+    color: #fff;
+}
+
+.default{
+    background-color: #43d10b;
+    color: #fff;
+}
+
+.UserManagementDiv{
+    text-align: center;
+    display: block;
+    width: 800px !important;
+    margin: 20px auto;
+}
+
+h2{
+    font-size: 25px;
+    margin: 20px;
+}
+h3{
+    color: #ff0000;
+}
+
+span{
+    font-weight: 900;
+}
+
+/* 
+    User Display Div
+*/
+.fram{
+    margin: 10px auto;
+    text-align: left;
+    width: 400px;
+}
+.imgBox{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    vertical-align: middle;
+}
+.UserDetail{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px;
+}
