@@ -1,0 +1,71 @@
+/* 
+-------------------------------------------------------------------
+main Component Style
+-------------------------------------------------------------------
+*/
+body{
+    /* width: 100px; */
+    margin: 10px auto;
+}
+h1{
+    text-align: center;
+}
+ol{
+    padding: 20px 50px;
+}
+li{
+    font-size: 20px;
+    font-weight: 600;
+}
+/* 
+-------------------------------------------------------------------
+Button Component Style
+-------------------------------------------------------------------
+*/
+button{
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.primary{
+    background: #47f;
+}
+.default{
+    background: #1f1;
+}
+
+/* 
+-------------------------------------------------------------------
+Input Component Style
+-------------------------------------------------------------------
+*/
+.InputBox{
+    margin: 20px 50px;
+    vertical-align: top;
+    width: 500px;
+    display: inline-block;
+}
+label{
+    width: 100%;
+    font-size: 25px;
+    font-weight: 600;   
+    display: block;    
+}
+input{
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.DisplayShowCase{
+    border: 1px solid black;
+    margin: 20px 50px;
+    width: 500px;
+    height: 300px;
+    overflow: auto;
+    display: inline-block;
+    vertical-align: top;
+}
